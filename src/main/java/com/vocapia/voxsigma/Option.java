@@ -11,6 +11,13 @@ abstract public class Option {
     protected String value;
 
     public Option(String name, String value) {
+        if (name == null) {
+            throw new IllegalArgumentException("name cannot be null for object "+this.getClass());
+        }
+        // throw exception if value is null
+        if (value == null) {
+            throw new IllegalArgumentException("value cannot be null for option type " + name);
+        }
         this.name = name;
         this.value = value;
     }
@@ -22,6 +29,9 @@ abstract public class Option {
      */
     public String renderQueryString() {
         try {
+            System.out.println(this.getClass());
+            System.out.println(this.name.getClass());
+            System.out.println(this.value.getClass());
             return URLEncoder.encode(this.name, StandardCharsets.UTF_8.toString()) + "=" + URLEncoder.encode(this.value, StandardCharsets.UTF_8.toString());
         } catch (UnsupportedEncodingException ignored) {
         }

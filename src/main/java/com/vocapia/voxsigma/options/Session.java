@@ -10,8 +10,8 @@ import com.vocapia.voxsigma.OptionString;
  */
 public class Session extends OptionString {
 
-    public Session( String value) {
-        super("session", value);
+    public Session( String session_id) {
+        super("session", session_id);
     }
 
 

@@ -4,11 +4,13 @@
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/methods/VrbsPart.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/methods/Hello.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/Method.java
+/Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/demo/voxsigma/DemoHello.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/AudioTransMethod.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/Dlopt.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/TextfileRaw.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/methods/Upload.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/OptionInt.java
+/Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/demo/voxsigma/DemoVrbsTransAndroidMicrophoneLive.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/Slfile.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/methods/UploadVocfile.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/Model.java
@@ -21,7 +23,9 @@
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/Audiofile.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/response/SuccessResponse.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/auths/UserPassword.java
+/Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/demo/voxsigma/Demo.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/methods/VrbsAlign.java
+/Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/demo/voxsigma/DemoStatus.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/Ropt.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/VocfileRaw.java
 /Users/mathieuvedie/codes/vocapia/java/voxsigma/src/main/java/com/vocapia/voxsigma/options/Priority.java

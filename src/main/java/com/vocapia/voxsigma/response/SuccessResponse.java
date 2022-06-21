@@ -5,6 +5,7 @@ package com.vocapia.voxsigma.response;
 import com.vocapia.voxsigma.Response;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
@@ -61,6 +62,12 @@ public class SuccessResponse extends Response {
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc = db.parse(new InputSource(new StringReader(builder.toString())));
             doc.getDocumentElement().normalize();
+            if (doc.getElementsByTagName("Error").getLength() > 0) {
+                Node ErrorItem = doc.getElementsByTagName("Error").item(0);
+                int error_code = Integer.parseInt(ErrorItem.getAttributes().getNamedItem("code").getNodeValue());
+                String error_message = ErrorItem.getTextContent();
+                return new ErrorResponse(error_code, error_message);
+            }
             return new SuccessResponse(doc);
         } catch (ParserConfigurationException | IOException | SAXException exception) {
             return new ErrorResponse(-1, "Error parsing response : "+ exception.getMessage());

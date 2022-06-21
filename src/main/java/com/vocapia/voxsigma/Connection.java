@@ -170,7 +170,7 @@ public class Connection {
             return ErrorResponse.initUsingBufferReader(reader, response_type);
         }
 
-        boolean chunked = "chunked".equals(Objects.requireNonNull(headers_map.get("Transfer-Encoding")));
+        boolean chunked = ("chunked".equals(headers_map.get("Transfer-Encoding")));
         if (chunked) {
             return SuccessChunkedResponse.initUsingBufferReader(reader, response_type);
         }

@@ -1,3 +1,5 @@
+com/vocapia/demo/voxsigma/Demo.class
+com/vocapia/demo/voxsigma/DemoVrbsTransAndroidMicrophoneLive$2.class
 com/vocapia/voxsigma/options/Audiofile.class
 com/vocapia/voxsigma/methods/Hello.class
 com/vocapia/voxsigma/Option.class
@@ -10,8 +12,10 @@ com/vocapia/voxsigma/options/Qsopt.class
 com/vocapia/voxsigma/options/Session.class
 com/vocapia/voxsigma/Response.class
 com/vocapia/voxsigma/options/SlfileRaw.class
+com/vocapia/demo/voxsigma/DemoStatus.class
 com/vocapia/voxsigma/methods/UploadLlfile.class
 com/vocapia/voxsigma/Method.class
+com/vocapia/demo/voxsigma/DemoVrbsTransAndroidMicrophoneLive$1$1.class
 com/vocapia/voxsigma/options/Slfile.class
 com/vocapia/voxsigma/options/Textfile.class
 com/vocapia/voxsigma/options/File.class
@@ -33,9 +37,11 @@ com/vocapia/voxsigma/methods/VrbsTrans.class
 com/vocapia/voxsigma/auths/UserPassword.class
 com/vocapia/voxsigma/Auth.class
 com/vocapia/voxsigma/options/VocfileRaw.class
+com/vocapia/demo/voxsigma/DemoVrbsTransAndroidMicrophoneLive.class
 com/vocapia/voxsigma/methods/Status.class
 com/vocapia/voxsigma/OptionFloat.class
 com/vocapia/voxsigma/options/AudiofileLocalFile.class
+com/vocapia/demo/voxsigma/DemoHello.class
 com/vocapia/voxsigma/methods/VrbsXtrans.class
 com/vocapia/voxsigma/methods/VrctsTrans.class
 com/vocapia/voxsigma/response/SuccessChunkedResponseEvent.class
@@ -49,6 +55,7 @@ com/vocapia/voxsigma/response/SuccessChunkedResponse$1.class
 com/vocapia/voxsigma/options/VocfileLocalFile.class
 com/vocapia/voxsigma/options/Rtopt.class
 com/vocapia/voxsigma/options/Ropt.class
+com/vocapia/demo/voxsigma/DemoVrbsTransAndroidMicrophoneLive$1.class
 com/vocapia/voxsigma/OptionInt.class
 com/vocapia/voxsigma/options/Qlopt.class
 com/vocapia/voxsigma/methods/UploadVocfile.class
