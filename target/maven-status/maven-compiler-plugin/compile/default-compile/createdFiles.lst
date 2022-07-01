@@ -1,4 +1,5 @@
 com/vocapia/demo/voxsigma/Demo.class
+com/vocapia/voxsigma/options/Host.class
 com/vocapia/demo/voxsigma/DemoVrbsTransAndroidMicrophoneLive$2.class
 com/vocapia/voxsigma/options/Audiofile.class
 com/vocapia/voxsigma/methods/Hello.class

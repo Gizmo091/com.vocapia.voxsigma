@@ -1,5 +1,7 @@
 package com.vocapia.voxsigma;
 
+import com.vocapia.voxsigma.options.Host;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,6 +20,12 @@ abstract public class Method {
         this.options_a.add(option);
         return this;
     }
+
+    public final Method setHost(Host host) {
+        return this.addOption(host);
+    }
+
+
 
     public final boolean isStream() {
         return this.is_stream;
